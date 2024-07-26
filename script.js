@@ -7,6 +7,7 @@ var Player1turn = document.getElementById("Player1turn");
 var Player2turn = document.getElementById("Player2turn");
 
 gamebutton.addEventListener("click" , (e) => {
+    e.preventDefault();
     window.location.href = "game.html";
 })
 
